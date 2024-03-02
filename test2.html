@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+</head>
+<style>
+ .i-phone-13-14-4,
+.i-phone-13-14-4 * {
+  box-sizing: border-box;
+}
+.i-phone-13-14-4 {
+  background: #ffffff;
+  height: 844px;
+  position: relative;
+  overflow: hidden;
+}
+.rahul-kumar {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  left: 26px;
+  top: 81px;
+}
+.patient {
+  color: rgba(0, 0, 0, 0.6);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  left: 26px;
+  top: 62px;
+}
+.remarks-icon {
+  height: auto;
+  position: absolute;
+  right: 6.41%;
+  left: 85.38%;
+  width: 8.21%;
+  bottom: 87.91%;
+  top: 8.29%;
+  height: 3.79%;
+  overflow: visible;
+}
+.rectangle-7 {
+  background: rgba(249, 242, 255, 0.5);
+  border-radius: 19px;
+  border-style: solid;
+  border-color: #eedbff;
+  border-width: 1px;
+  width: 297px;
+  height: 38px;
+  position: absolute;
+  left: 26px;
+  top: 149px;
+}
+.frame-4 {
+  width: 339px;
+  height: 448px;
+  position: absolute;
+  left: 26px;
+  top: 234px;
+}
+.group-2 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-8 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.4);
+  border-width: 1px;
+  width: 339px;
+  height: 144px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.rectangle-9 {
+  background: #ddb7ff;
+  border-radius: 0px 0px 10px 10px;
+  width: 339px;
+  height: 63px;
+  position: absolute;
+  left: 0px;
+  top: 81px;
+}
+.test-ct-scan {
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 94px;
+}
+.test-ct-scan-span {
+  color: #000000;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+.test-ct-scan-span2 {
+  color: #000000;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+}
+.test-ct-scan-span3 {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+.hospital-mg-hospital {
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 113px;
+}
+.hospital-mg-hospital-span {
+  color: #000000;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+.hospital-mg-hospital-span2 {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+.date-24-01-24 {
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: 220px;
+  top: 113px;
+}
+.date-24-01-24-span {
+  color: #000000;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+.date-24-01-24-span2 {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+.group-3 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-82 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.4);
+  border-width: 1px;
+  width: 339px;
+  height: 144px;
+  position: absolute;
+  left: 0px;
+  top: 152px;
+  object-fit: cover;
+}
+.rectangle-92 {
+  background: #ddb7ff;
+  border-radius: 0px 0px 10px 10px;
+  width: 339px;
+  height: 63px;
+  position: absolute;
+  left: 0px;
+  top: 233px;
+}
+.test-ct-scan2 {
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 246px;
+}
+.test-ct-scan-2-span {
+  color: #000000;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+.test-ct-scan-2-span2 {
+  color: #000000;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+}
+.test-ct-scan-2-span3 {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+.hospital-mg-hospital2 {
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 265px;
+}
+.hospital-mg-hospital-2-span {
+  color: #000000;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+.hospital-mg-hospital-2-span2 {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+.date-24-01-242 {
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: 220px;
+  top: 265px;
+}
+.date-24-01-242-span {
+  color: #000000;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+.date-24-01-242-span2 {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+.group-4 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-83 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.4);
+  border-width: 1px;
+  width: 339px;
+  height: 144px;
+  position: absolute;
+  left: 0px;
+  top: 304px;
+  object-fit: cover;
+}
+.rectangle-93 {
+  background: #ddb7ff;
+  border-radius: 0px 0px 10px 10px;
+  width: 339px;
+  height: 63px;
+  position: absolute;
+  left: 0px;
+  top: 385px;
+}
+.test-ct-scan3 {
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 398px;
+}
+.test-ct-scan-3-span {
+  color: #000000;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+.test-ct-scan-3-span2 {
+  color: #000000;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+}
+.test-ct-scan-3-span3 {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+.hospital-mg-hospital3 {
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 417px;
+}
+.hospital-mg-hospital-3-span {
+  color: #000000;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+.hospital-mg-hospital-3-span2 {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+.date-24-01-243 {
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: 220px;
+  top: 417px;
+}
+.date-24-01-243-span {
+  color: #000000;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+.date-24-01-243-span2 {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+.search-test-names {
+  color: rgba(0, 0, 0, 0.5);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  position: absolute;
+  left: 70px;
+  top: 159px;
+}
+.search-icon {
+  height: auto;
+  position: absolute;
+  right: 84.43%;
+  left: 10.77%;
+  width: 4.8%;
+  bottom: 78.94%;
+  top: 18.84%;
+  height: 2.22%;
+  overflow: visible;
+}
+.filter-icon {
+  height: auto;
+  position: absolute;
+  right: 6.46%;
+  left: 86.15%;
+  width: 7.38%;
+  bottom: 79.03%;
+  top: 18.84%;
+  height: 2.13%;
+  overflow: visible;
+}
+
+
+</style>
+<body>
+  <div class="i-phone-13-14-4">
+    <div class="rahul-kumar">Rahul Kumar</div>
+    <div class="patient">Patient</div>
+    <svg
+      class="remarks-icon"
+      width="32"
+      height="32"
+      viewBox="0 0 32 32"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M23.6575 3.81818L26.5366 0.93737C27.1368 0.337182 27.9508 0 28.7996 0C29.6484 0 30.4624 0.337182 31.0626 0.93737C31.6628 1.53756 32 2.35159 32 3.20038C32 4.04917 31.6628 4.8632 31.0626 5.46339L12.9398 23.5862C12.0375 24.488 10.9249 25.1508 9.70227 25.5148L5.11993 26.8801L6.48525 22.2977C6.84924 21.0751 7.51202 19.9625 8.41375 19.0602L23.6575 3.81818ZM23.6575 3.81818L28.1596 8.32031M25.5997 20.0535V28.1601C25.5997 29.1785 25.1951 30.1552 24.475 30.8753C23.7548 31.5954 22.7781 32 21.7597 32H3.83995C2.82153 32 1.84483 31.5954 1.12469 30.8753C0.404565 30.1552 0 29.1785 0 28.1601V10.2403C0 9.22187 0.404565 8.24516 1.12469 7.52503C1.84483 6.8049 2.82153 6.40034 3.83995 6.40034H11.9465"
+        stroke="#DDB7FF"
+        stroke-width="3"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+    <div class="rectangle-7"></div>
+    <div class="frame-4">
+
+      
+      <div class="group-2">
+        <a href= "test1.jpeg">
+        <img class="rectangle-8" src="test1.jpeg" />
+        <div class="rectangle-9"></div>
+        <div class="test-ct-scan">
+          <span>
+            <span class="test-ct-scan-span">Test :</span>
+            <span class="test-ct-scan-span2"></span>
+            <span class="test-ct-scan-span3">LFT</span>
+          </span>
+        </div>
+        <div class="hospital-mg-hospital">
+          <span>
+            <span class="hospital-mg-hospital-span">Hospital :</span>
+            <span class="hospital-mg-hospital-span2">MG Hospital</span>
+          </span>
+        </div>
+        <div class="date-24-01-24">
+          <span>
+            <span class="date-24-01-24-span">Date :</span>
+            <span class="date-24-01-24-span2">24.09.23</span>
+          </span>
+        </div>
+      </div>
+    </a>
+    
+
+     
+      
+        <a href="test2.jpeg">
+        <img class="rectangle-82" src="test2.jpeg" />
+        <div class="rectangle-92"></div>
+        <div class="test-ct-scan2">
+          <span>
+            <span class="test-ct-scan-2-span">Test :</span>
+            <span class="test-ct-scan-2-span2"></span>
+            <span class="test-ct-scan-2-span3">
+              Blood Test
+          </span>
+        </div>
+        <div class="hospital-mg-hospital2">
+          <span>
+            <span class="hospital-mg-hospital-2-span">Hospital :</span>
+            <span class="hospital-mg-hospital-2-span2">MG Hospital</span>
+          </span>
+        </div>
+        <div class="date-24-01-242">
+          <span>
+            <span class="date-24-01-242-span">Date :</span>
+            <span class="date-24-01-242-span2">22.11.23</span>
+          </span>
+        </div>
+      
+    </a>
+    
+      <a href = "test3.png">
+        <img class="rectangle-83" src="test3.png" />
+        <div class="rectangle-93"></div>
+        <div class="test-ct-scan3">
+          <span>
+            <span class="test-ct-scan-3-span">Test :</span>
+            <span class="test-ct-scan-3-span2"></span>
+            <span class="test-ct-scan-3-span3">CT Scan</span>
+          </span>
+        </div>
+        <div class="hospital-mg-hospital3">
+          <span>
+            <span class="hospital-mg-hospital-3-span">Hospital :</span>
+            <span class="hospital-mg-hospital-3-span2">MG Hospital</span>
+          </span>
+        </div>
+        <div class="date-24-01-243">
+          <span>
+            <span class="date-24-01-243-span">Date :</span>
+            <span class="date-24-01-243-span2">2.03.24</span>
+          </span>
+        </div>
+      </a>
+     
+    </div>
+    <div class="search-test-names">Search test names ...</div>
+    <svg
+      class="search-icon"
+      width="19"
+      height="19"
+      viewBox="0 0 19 19"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M8 16C9.775 15.9998 11.4989 15.4056 12.897 14.312L17.293 18.708L18.707 17.294L14.311 12.898C15.4051 11.4997 15.9997 9.77546 16 8C16 3.589 12.411 0 8 0C3.589 0 0 3.589 0 8C0 12.411 3.589 16 8 16ZM8 2C11.309 2 14 4.691 14 8C14 11.309 11.309 14 8 14C4.691 14 2 11.309 2 8C2 4.691 4.691 2 8 2Z"
+        fill="#DDB7FF"
+      />
+      <path
+        d="M9.41183 6.58609C9.79083 6.96609 9.99983 7.46809 9.99983 8.00009H11.9998C12.0005 7.47454 11.8972 6.95405 11.6957 6.46867C11.4942 5.98328 11.1985 5.54261 10.8258 5.17209C9.31183 3.66009 6.68683 3.66009 5.17383 5.17209L6.58583 6.58809C7.34583 5.83009 8.65583 5.83209 9.41183 6.58609Z"
+        fill="#DDB7FF"
+      />
+    </svg>
+    <svg
+      class="filter-icon"
+      width="29"
+      height="18"
+      viewBox="0 0 29 18"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M5.4 7.2H23.4V10.8H5.4V7.2ZM0 0H28.8V3.6H0V0ZM10.8 14.4H18V18H10.8V14.4Z"
+        fill="#EEDBFF"
+      />
+    </svg>
+  </div>
+      
+</body>
+
+</html>
